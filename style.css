@@ -1,0 +1,482 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800;900&display=swap');
+
+:root{
+    --white: #ffffff;
+    --black: #000000;
+
+    --background-color: #f8f8f8;
+    
+    --primary-color: #FFFFFF;
+    --accent-color: #0000FF;
+    --highlight-color: #FF8097;
+    --action-button-color: #87ceeb;
+    --action-button-text-color: #FFFFFF;
+    --heading-color: #000000;
+
+    --Projects-card-backgroundcolor: #C5C5C5;
+
+    --footer-background: #C5C5C5;
+
+    --action-button-boder: 2px solid var(--black);
+
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gabarito', cursive;
+}
+
+body{
+    background: var(--background-color);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 3%;
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1; */
+}
+
+.Nav-Links{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.Nav-Links a{
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--heading-color);
+    scale: 1;
+    transition: 0.3s;
+}
+
+.Nav-Links a:hover{
+    scale: 1.2;
+    background: var(--action-button-color);
+    color: var(--white);
+    border-radius: 5px;
+}
+
+
+.Nav-Button button{
+    outline: none;
+    font-size: 15px;
+    border: var(--action-button-boder);
+    border-radius: 20px;
+    padding: 5px 30px;
+    cursor: pointer;
+    scale: 1;
+    transition: 0.5s;
+}
+
+.Nav-Button button:hover{
+    scale: 1.3;
+    background: var(--action-button-color);
+    color: var(--white);
+    border-radius: 10px;
+}
+
+
+
+
+.home--section1{
+    /* height: 100vh; */
+    padding: 4% 1%;
+    width: 100%;
+}
+
+.home--wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main--section-text span{
+    font-size: 30px;
+}
+
+.main--section-text h2{
+    font-size: 40px;
+}
+
+.main--section-text h1{
+    font-size: 50px;
+    color: var(--highlight-color);
+}
+
+.main--section-text p{
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.main--section-button button{
+    margin-top: 40px;
+    font-size: 20px;
+    padding: 10px 40px;
+    border-radius: 10px;
+    outline: none;
+    border: var(--action-button-boder);
+    cursor: pointer;
+    scale: 1;
+    transition: 0.5s;
+}
+
+.main--section-button button:hover{
+    scale: 1.2;
+    background: var(--action-button-color);
+}
+
+.main--section-image img{
+    height: 550px;
+    border-radius: 20px;
+    scale: 1;
+    transition: 0.4s;
+    
+    cursor: pointer;
+}
+
+.main--section-image img:hover{
+    scale: 1.1;
+    box-shadow: 10px 10px 50px 5px;
+}
+
+
+
+
+.technologies--section{
+    /* height: 100vh; */
+    padding: 4% 1%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.technologies--section h1{
+    margin-top: 40px;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.technologies--section-wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.technologies--section-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px; 
+    color: var(--white);
+    background: var(--action-button-color);
+    padding: 30px 30px;
+    width: 300px;
+    border-radius: 30px;
+    cursor: pointer;
+    scale: 1;
+    transition: 0.5s;
+}
+
+.technologies--section-card:hover{
+    scale: 1.1;
+    box-shadow: 10px 10px 50px 5px;
+}
+
+.technologies--section-card h4{
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.technologies--section-card p{
+    font-size: 15px;
+    text-align: center;
+}
+
+.technologies--section-card img{
+    height: 150px;
+    border-radius: 20px;
+}
+
+
+
+.style--section{
+    padding: 4% 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.style--section h1{
+    margin-top: 40px;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.style--section-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 70px;
+}
+
+.style--section-wrapper span{
+    color: var(--highlight-color);
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.style--section-wrapper p{
+    color: var(--black);
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+.style--section-image img{
+    height: 500px;
+    border-radius: 20px;
+    scale: 1;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.style--section-image img:hover{
+    scale: 1.1;
+    box-shadow: 10px 10px 50px 1px;
+}
+
+
+
+
+.projects--section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects--section h1{
+    margin-top: 40px;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.projects--section-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    cursor: pointer;
+}
+
+.project--card{
+    background: var(--Projects-card-backgroundcolor);
+    padding: 30px 30px;
+    width: 350px;
+    border-radius: 30px;
+    margin-bottom: 40px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    scale: 1;
+    transition: 0.5s;
+}
+
+.project--card:hover{
+    scale: 1.1;
+    border-radius: 20px;
+}
+
+.project--card-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project--card-text h4{
+    margin-top: 20px;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.project--card img{
+    height: 200px;
+}
+
+.project--card-button button{
+    background: var(--white);
+    padding: 10px 80px;
+    margin-top: 20px;
+    outline: none;
+    border: var(--action-button-boder);
+    cursor: pointer;
+    border-radius: 30px;
+    scale: 1;
+    transition: 0.5s;
+}
+
+.project--card-button button:hover{
+    scale: 1.2;
+    border-radius: 10px;
+}
+
+.project--card-button a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.projects--section-buttons{
+    display: flex;
+    align-items: center;
+}
+
+.projects--section-buttons button{
+    padding: 10px 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+    outline: none;
+    border: var(--action-button-boder);
+    margin-inline: 15px;
+    background-color: var(--action-button-color);
+    cursor: pointer;
+    scale: 1;
+    transition: 0.6s;
+}
+
+.projects--section-buttons button:hover{
+    scale: 1.2;
+    border-radius: 20px;
+}
+
+.projects--section-buttons a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400px;
+    color: var(--black);
+}
+
+
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    background: var(--footer-background);
+    padding: 4% 1%;
+}
+
+.footerlogo span{
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footerlogo p{
+    margin: 10px;
+}
+
+.footerpages{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footerpages a{
+    color: var(--black);
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    scale: 1;
+    transition: 0.5s;
+}
+
+.footerpages a:hover{
+    scale: 1.2;
+}
+
+.footersocials a{
+    color: var(--black);
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    scale: 1;
+    transition: 0.5s;
+}
+
+.footersocials a:hover{
+    scale: 1.2;
+}
+
+.footersocials{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+.contactform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4% 1%;
+    width: 100%;
+}
+
+.contactheader h1{
+    margin-top: 40px;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.contactinput{
+    display: flex;
+    flex-direction: column;
+}
+
+.contactinput input{
+    padding: 10px 20px;
+    width: 600px;
+    margin-block: 10px;
+    outline: none;
+    border: var(--action-button-boder);
+    border-radius: 10px;
+    font-size: 20px;
+    background: transparent;
+}
+
+.contactsubmit button{
+    margin-top: 40px;
+    padding: 10px 90px;
+    margin-bottom: 60px;
+    border-radius: 10px;
+    outline: none;
+    border: var(--action-button-boder);
+    width: 100%;
+    scale: 1;
+    transition: 0.5s;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.contactsubmit button:hover{
+    scale: 1.1;
+    background-color: var(--highlight-color);
+}
+
+.contact--wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 60px;
+}
