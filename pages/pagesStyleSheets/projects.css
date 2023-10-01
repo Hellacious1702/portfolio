@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800;900&display=swap');
+
+:root{
+    --white: #ffffff;
+    --black: #000000;
+
+    --background-color: #f8f8f8;
+    
+    --primary-color: #FFFFFF;
+    --accent-color: #0000FF;
+    --highlight-color: #FF8097;
+    --action-button-color: #87ceeb;
+    --action-button-text-color: #FFFFFF;
+    --heading-color: #000000;
+
+    --text-color-paragraph: #3f3f3f;
+
+    --Projects-card-backgroundcolor: #C5C5C5;
+
+    --footer-background: #C5C5C5;
+
+    --action-button-boder: 2px solid var(--black);
+
+
+    --login-card-bgcolor: #87ceeb;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gabarito', cursive;
+}
+
+body{
+    background: var(--background-color);
+}
+
+/* Global CSS Starts */
+
+.section--header-title{
+    margin-top: 30px;
+    font-size: 38px;
+    margin-bottom: 40px;
+    font-weight: 800;
+    color: var(--black);
+    text-align: center;
+}
+
+/* Global CSS Ends */
+
+/* CSS for Navigation Bar Starts */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 3%;
+}
+
+.Brand--logo img{
+    height: 100px;
+}
+
+.Nav-Links{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.Nav-Links a{
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 22px;
+    color: var(--heading-color);
+    scale: 1;
+    transition: 0.3s;
+}
+
+.Nav-Links a:hover{
+    scale: 1.2;
+    background: var(--action-button-color);
+    color: var(--white);
+    border-radius: 5px;
+}
+
+
+.Nav-Button button{
+    outline: none;
+    font-size: 15px;
+    border: var(--action-button-boder);
+    border-radius: 20px;
+    padding: 5px 30px;
+    cursor: pointer;
+    scale: 1;
+    transition: 0.5s;
+}
+
+.Nav-Button button:hover{
+    scale: 1.3;
+    background: var(--action-button-color);
+    color: var(--white);
+    border-radius: 10px;
+}
+
+/* CSS for Navigation Bar Ends */
+
+/* CSS for Projects Section Starts */
+
+
+.Projects{
+    padding: 5% 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects--header{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.projects--content{
+    display: flex;
+    padding: 10px 20px;
+    gap: 40px;
+    scale: 1;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.projects--content:hover{
+    scale: 1.05;
+}
+
+.projects--wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.projects--content-title{
+    padding-right: 20px;
+    border-right: 1px solid black;
+}
+
+.projects--content-title h3{
+    font-size: 30px;
+    color: var(--black);
+    margin-bottom: 20px;
+    width: 350px;
+}
+
+.projects--content-title button{
+    outline: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: var(--action-button-boder);
+    background-color: #87ceeb;
+    scale: 1;
+    transition: 0.5s;
+}
+
+.projects--content-title button:hover{
+    scale: 1.1;
+    border-radius: 8px;
+}
+
+.projects--content-description p{
+    font-size: 20px;
+    color: var(--text-color-paragraph);
+}
+
+.projects-section-buttons{
+    margin-top: 60px;
+}
+
+.projects-section-buttons button{
+    padding: 10px 60px;
+    font-size: 18px;
+    font-weight: 600;
+    outline: none;
+    border: var(--action-button-boder);
+    border-radius: 10px;
+    background: var(--highlight-color);
+    color: var(--black);
+    scale: 1;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.projects-section-buttons button:hover{
+    scale: 1.2;
+}
+
+
+/* CSS for Projects Section Ends */
+
+/* CSS for Footer Section Starts */
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    background: var(--footer-background);
+    padding: 4% 1%;
+}
+
+.footerlogo span{
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footerlogo p{
+    margin: 10px;
+}
+
+.footerpages{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footerpages a{
+    color: var(--black);
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    scale: 1;
+    transition: 0.5s;
+}
+
+.footerpages a:hover{
+    scale: 1.2;
+}
+
+.footersocials a{
+    color: var(--black);
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    scale: 1;
+    transition: 0.5s;
+}
+
+.footersocials a:hover{
+    scale: 1.2;
+}
+
+.footersocials{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* CSS for Footer Section Ends */

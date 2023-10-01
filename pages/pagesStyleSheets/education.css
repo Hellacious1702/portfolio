@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800;900&display=swap');
+
+:root{
+    --white: #ffffff;
+    --black: #000000;
+
+    --background-color: #f8f8f8;
+    
+    --primary-color: #FFFFFF;
+    --accent-color: #0000FF;
+    --highlight-color: #FF8097;
+    --action-button-color: #87ceeb;
+    --action-button-text-color: #FFFFFF;
+    --heading-color: #000000;
+
+    --text-color-paragraph: #3f3f3f;
+
+    --Projects-card-backgroundcolor: #C5C5C5;
+
+    --footer-background: #C5C5C5;
+
+    --action-button-boder: 2px solid var(--black);
+
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gabarito', cursive;
+}
+
+body{
+    background: var(--background-color);
+}
+
+/* Global CSS Starts */
+
+.section--header-title{
+    margin-top: 30px;
+    font-size: 48px;
+    margin-bottom: 40px;
+    font-weight: 800;
+}
+
+/* Global CSS Ends */
+
+/* CSS for Navigation Bar Starts */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 3%;
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1; */
+}
+
+.Brand--logo img{
+    height: 100px;
+}
+
+.Nav-Links{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.Nav-Links a{
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 22px;
+    color: var(--heading-color);
+    scale: 1;
+    transition: 0.3s;
+}
+
+.Nav-Links a:hover{
+    scale: 1.2;
+    background: var(--action-button-color);
+    color: var(--white);
+    border-radius: 5px;
+}
+
+
+.Nav-Button button{
+    outline: none;
+    font-size: 15px;
+    border: var(--action-button-boder);
+    border-radius: 20px;
+    padding: 5px 30px;
+    cursor: pointer;
+    scale: 1;
+    transition: 0.5s;
+}
+
+.Nav-Button button:hover{
+    scale: 1.3;
+    background: var(--action-button-color);
+    color: var(--white);
+    border-radius: 10px;
+}
+
+/* CSS for Navigation Bar Ends */
+
+/* CSS for Education Section Starts */
+
+.Certification{
+    padding: 3% 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.certification--wrapper{
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    
+}
+
+.certification--text-section {
+    width: 800px;
+    padding-bottom: 20px;
+    border-bottom: var(--action-button-boder);
+    scale: 1;
+    transition: 0.5s; 
+    cursor: pointer;
+}
+
+.certification--text-section:hover{
+    scale: 1.05;
+}
+
+.certification--text-section-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.certification--text-section h3{
+    color: var(--highlight-color);
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.certification--text-section h5{
+    color: var(--black);
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.certification--text-section h6{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.certification--text-section p{
+    color: var(--text-color-paragraph);
+    font-size: 18px;
+}
+
+
+.certification--image-section img{
+    height: 550px;
+    border-radius: 20px;
+    scale: 1;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.certification--image-section img:hover{
+    scale: 1.1;
+    box-shadow: 10px 10px 50px 1px;
+}
+
+/* CSS for Education Section Ends */
+
+/* CSS for Footer Section Starts */
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    background: var(--footer-background);
+    padding: 4% 1%;
+}
+
+.footerlogo span{
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footerlogo p{
+    margin: 10px;
+}
+
+.footerpages{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footerpages a{
+    color: var(--black);
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    scale: 1;
+    transition: 0.5s;
+}
+
+.footerpages a:hover{
+    scale: 1.2;
+}
+
+.footersocials a{
+    color: var(--black);
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    scale: 1;
+    transition: 0.5s;
+}
+
+.footersocials a:hover{
+    scale: 1.2;
+}
+
+.footersocials{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* CSS for Footer Section Ends */
