@@ -105,6 +105,10 @@ nav{
     border-radius: 10px;
 }
 
+#Nav-Icon{
+    display: none;
+}
+
 /* CSS for Navigation Bar Ends */
 
 
@@ -647,4 +651,9 @@ nav{
 }
 
 /* CSS for Footer Section Ends */
+
+
+
+
+
 
