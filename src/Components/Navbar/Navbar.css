@@ -1,0 +1,26 @@
+.MainNavWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 8rem;
+    font-size: 18px;
+}
+
+
+.NavWrapper{
+    display: flex;
+    gap: 2em;
+}
+.NavWrapper a{
+    text-decoration: none;
+    color: #4E525A;
+    font-weight: 600;
+}
+
+.ContactWrapper button{
+    border-radius: 70%;
+    padding: 1em;
+    border: none;
+    outline: none;
+    background-color: #24262F;
+}

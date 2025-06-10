@@ -1,0 +1,70 @@
+
+
+.MainFooterWrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 1em 8rem;
+    gap: 1em;
+    margin-bottom: 3em;
+}
+
+.MainFooterTop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.MainFooterDown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.FooterTop2 img{
+    width: 2em;
+    margin-inline: 1em;
+}
+
+.FooterDown2 p{
+    text-align: right;
+    margin: 10px;
+}
+
+.FooterTop1 a{
+    text-decoration: none;
+    color: #4E525A;
+    margin-right: 2em;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.FooterDown1-info{
+    font-size: 18px;
+    font-weight: 600;
+    color: #4E525A;
+}
+
+.FooterDown1-Buttons{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+.FooterDown1-Buttons button{
+    border-radius: 5px;
+    padding: .5em 1em;
+    border: none;
+    outline: none;
+}
+
+#Getin{
+    background-color: #6E06F2;
+    color: white;
+}
+
+#Projects{
+    color: #24262F;
+    border: 1px solid #24262f;
+    background-color: transparent;
+}

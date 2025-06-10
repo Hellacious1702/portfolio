@@ -1,0 +1,42 @@
+.MainSection3Wrapper{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    padding: 4em 8rem;
+}
+
+.MainSection3Wrapper h3{
+    font-size: 4em;
+    margin: 0;
+    color: #24262f;
+}
+
+.MainSection3Wrapper h3 span{
+    color: #6E06F2;
+}
+
+.MainSection3Wrapper h4{
+    font-size: 2em;
+    margin: 0;
+    color: #24262f;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    font-size: 1.25em;
+    margin-bottom: .5em;
+    color: #4E525A;
+}
+
+li:hover{
+    color: #6E06F2;
+}
+
+.SkillsWrapper{
+    display: flex;
+    gap: 15em;
+}

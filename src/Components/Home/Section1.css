@@ -1,0 +1,67 @@
+.MainSection1Wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 4em 8rem;
+    align-items: center;
+}
+
+.MainWrapper2{
+    display: flex;
+    justify-content: flex-end;
+    border: 1px solid #24262f;
+    border-radius: 50%;
+}
+
+.MainWrapper2 img{
+    width: 22em;
+    height: 22em;
+    border-radius: 50%;
+    margin: 2em;
+    filter: grayscale();
+}
+
+.MainWrapper1{
+    display: flex;
+    flex-direction: column;
+}
+
+.MainWrapper1 h1{
+    font-size: 7rem;
+    margin: 0;
+    line-height: 100px;
+    margin-bottom: .2em;
+}
+
+.MainWrapper1 h1 span{
+    color: #6E06F2;
+}
+
+.MainWrapper1 p{
+    font-size: 1.5em;
+    color: #4E525A;
+}
+
+.MainWrapper1-Buttons{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+.MainWrapper1-Buttons button{
+    border-radius: 5px;
+    padding: .5em 1em;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+#Getin{
+    background-color: #6E06F2;
+    color: white;
+}
+
+#Projects{
+    color: #24262F;
+    border: 1px solid #24262f;
+    background-color: transparent;
+}

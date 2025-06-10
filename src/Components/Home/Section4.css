@@ -1,0 +1,21 @@
+.MainSection4Wrapper{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    padding: 4em 8rem;
+}
+
+.MainSection4Wrapper h3{
+    font-size: 4em;
+    margin: 0;
+    color: #24241f;
+}
+
+.MainSection4Wrapper h3 span{
+    color: #6E06F2;
+}
+
+.MainSection4Wrapper p{
+    font-size: 1.2em;
+    color: #4E525A;
+}
