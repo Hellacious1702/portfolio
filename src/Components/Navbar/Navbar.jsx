@@ -14,9 +14,9 @@ const Navbar = () => {
           </div>
 
           <div className="NavWrapper">
-              <Link to="/portfolio/">Home</Link>
-              <Link to="/portfolio/Project">Project</Link>
-              <Link to="/portfolio/About">About</Link>
+              <Link to="/">Home</Link>
+              <Link to="/Project">Project</Link>
+              <Link to="/About">About</Link>
           </div>
 
           <div className="ContactWrapper">

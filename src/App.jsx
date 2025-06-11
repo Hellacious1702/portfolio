@@ -18,8 +18,8 @@ function App() {
        
         <Routes>
           
-          <Route path='/portfolio/' element={<HomePage/>}/>
-          <Route path='/portfolio/About' element={<About/>}/>
+          <Route path='/' element={<HomePage/>}/>
+          <Route path='/About' element={<About/>}/>
         
         </Routes>
         
