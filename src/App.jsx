@@ -7,6 +7,7 @@ import HomePage from './HomePage'
 
 import {BrowserRouter as Router , Routes, Route} from 'react-router-dom'
 import About from './About'
+import Projects from './Projects'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,6 +21,7 @@ function App() {
           
           <Route path='/' element={<HomePage/>}/>
           <Route path='/About' element={<About/>}/>
+          <Route path='/Projects' element={<Projects/>}/>
         
         </Routes>
         

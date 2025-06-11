@@ -1,0 +1,49 @@
+.ProjectDisplayWrapper{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    padding: 2em 8vw;
+    margin-bottom: 2em;
+}
+
+.ProjectDisplayWrapper img{
+    border-radius: 20px;
+}
+
+.ProjectDisplayWrapper h3{
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.ProjectDisplayWrapper p{
+    width: 70%;
+    font-size: 1.2em;
+    padding: 1em;
+    color: #4E525A;
+}
+
+.ProjectDetailsWrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+    margin-top: 1em;
+}
+
+.ProjectButtons{
+    width: 50%;
+    text-align: right;
+}
+
+.ProjectButtons button{
+    padding: 1em 2em;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #6e06f2;
+    color: white;
+    cursor: pointer;
+}
+
+.ProjectButtons a{
+    cursor: pointer;
+}

@@ -14,9 +14,9 @@ const Footer = () => {
             <div className="MainFooterTop">
                 <div className="FooterTop1">
                     <Link to="/">Home</Link>
-                    <Link to="/Project">Project</Link>
+                    <Link to="/Projects">Project</Link>
                     <Link to="/About">About</Link>
-                    <Link to="/ontact">Contact</Link>
+                    <Link to="/Contact">Contact</Link>
                 </div>
 
                 <div className="FooterTop2">

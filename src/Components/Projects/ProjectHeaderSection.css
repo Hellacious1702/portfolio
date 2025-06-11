@@ -1,0 +1,23 @@
+.ProjectHeaderSectionWrapper{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    padding: 4em 8vw;
+}
+
+.ProjectHeaderSectionWrapper h1{
+    font-size: 5em;
+    margin: 0;
+    color: #24241f;
+}
+
+.ProjectHeaderSectionWrapper h1 span{
+    color: #6E06F2;
+}
+
+.ProjectHeaderSectionWrapper p{
+    font-size: 1.5em;
+    color: #4E525A;
+    border-left: .5em solid #6E06F2;
+    padding-left: 1em;
+}
