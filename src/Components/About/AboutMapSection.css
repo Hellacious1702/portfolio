@@ -1,0 +1,23 @@
+iframe{
+    width: 100%;
+    height: 20em;
+    border-radius: 20px;
+    margin-top: 1em;
+}
+
+.AboutMapSectionWrapper{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    padding: 4em 8vw;
+}
+
+.AboutMapSectionWrapper h3{
+    font-size: 4em;
+    margin: 0;
+    color: #24241f;
+}
+
+.AboutMapSectionWrapper h3 span{
+    color: #6E06F2;
+}

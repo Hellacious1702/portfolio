@@ -1,0 +1,23 @@
+.AboutSection1Wrapper{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    padding: 4em 8vw;
+}
+
+.AboutSection1Wrapper h1{
+    font-size: 7em;
+    margin: 0;
+    color: #24241f;
+}
+
+.AboutSection1Wrapper h1 span{
+    color: #6E06F2;
+}
+
+.AboutSection1Wrapper p{
+    font-size: 1.5em;
+    color: #4E525A;
+    border-left: .5em solid #6E06F2;
+    padding-left: 1em;
+}
