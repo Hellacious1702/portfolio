@@ -18,9 +18,9 @@ const Footer = () => {
                 </div>
 
                 <div className="FooterTop2">
-                    <img src={InstagramIcon} alt="" />
-                    <img src={LinkedinIcon} alt="" />
-                    <img src={GithubIcon} alt="" />
+                    <a href="https://www.instagram.com/varad5878/" target='_blank'><img src={InstagramIcon}/></a>
+                    <a href="https://www.linkedin.com/in/varadnaik/" target='_blank'><img src={LinkedinIcon}/></a>
+                    <a href="https://github.com/Hellacious1702" target='_blank'><img src={GithubIcon}/></a>
                 </div>
             </div>
 

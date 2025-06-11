@@ -6,6 +6,8 @@ const Section2 = () => {
 
     const Education = ["Amity University" , "Radcliffe School" , "WhiteHat JR"]
 
+    const [activeID , setActiveID] = useState("AmityUniversity")
+
     const [compState , setCompState] = useState("Amity University");
     const [catState , setCatState] = useState("AmityUniversity");
 
@@ -13,6 +15,7 @@ const Section2 = () => {
     {
         setCompState(element);
         setCatState(element.replaceAll(" ", ""))
+        setActiveID(element.replaceAll(" ", ""))
     }
 
   return (
@@ -22,13 +25,15 @@ const Section2 = () => {
             
             <div className="EducationWrapper">
                 <div className="EducationHeaderWrapper">
-                    <ul className='EducationHeaderUL'>
+                    
                         {Education.map((element,index) => 
-                            <li className="EducationHeaderLI"key={index} onClick={() => handleListClick(element)}>
-                                {element}
-                            </li>
+                            <ul className='EducationHeaderUL' id={compState === element ? "ActiveUL" : "notActiveUL"} >
+                                <li className="EducationHeaderLI"key={index} id={compState === element ? "Active" : "notActive"} onClick={() => handleListClick(element)}>
+                                    {element}
+                                </li>
+                            </ul>
                         )}
-                    </ul>
+                    
                 </div>
 
                 <div className="EducationInfoWrapper">

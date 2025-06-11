@@ -3,6 +3,7 @@
     justify-content: space-between;
     padding: 4em 8vw;
     align-items: center;
+    margin-top: 5em;
 }
 
 .MainWrapper2{
@@ -26,7 +27,7 @@
 }
 
 .MainWrapper1 h1{
-    font-size: 7rem;
+    font-size: 6rem;
     margin: 0;
     line-height: 100px;
     margin-bottom: .2em;
@@ -37,7 +38,7 @@
 }
 
 .MainWrapper1 p{
-    font-size: 1.5em;
+    font-size: 1.3em;
     color: #4E525A;
 }
 
