@@ -13,10 +13,10 @@ const Footer = () => {
         <div className="MainFooterWrapper">
             <div className="MainFooterTop">
                 <div className="FooterTop1">
-                    <Link to="/">Home</Link>
-                    <Link to="/Projects">Project</Link>
-                    <Link to="/About">About</Link>
-                    <Link to="/Contact">Contact</Link>
+                    <Link to="/portfolio/">Home</Link>
+                    <Link to="/portfolio/Projects">Project</Link>
+                    <Link to="/portfolio/About">About</Link>
+                    <Link to="/portfolio/Contact">Contact</Link>
                 </div>
 
                 <div className="FooterTop2">
