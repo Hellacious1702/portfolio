@@ -1,0 +1,36 @@
+.InfoWrapper{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.InfoWrapper-header{
+    display: flex;
+    flex-direction: column;
+    gap: .1em;
+    margin-bottom: 1em;
+}
+
+.InfoWrapper-header h5 , p{
+    margin: 0;
+}
+
+.InfoWrapper-header h5 span{
+    color: #6E06F2;
+}
+
+.InfoWrapper-header h5{
+    font-weight: 600;
+    font-size: 1.5em;
+    color: #24262f;
+}
+
+.InfoWrapper-header p{
+    color: #4E525A;
+}
+
+#infoDetails{
+    color: #4E525A;
+    font-weight: 400;
+    font-size: 1em;
+}

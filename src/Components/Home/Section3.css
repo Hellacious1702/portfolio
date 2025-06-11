@@ -21,18 +21,18 @@
     color: #24262f;
 }
 
-ul{
+.section3ul{
     list-style-type: none;
     padding: 0;
 }
 
-li{
+.section3li{
     font-size: 1.25em;
     margin-bottom: .5em;
     color: #4E525A;
 }
 
-li:hover{
+.section3li:hover{
     color: #6E06F2;
 }
 

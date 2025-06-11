@@ -16,22 +16,22 @@ const Section3 = () => {
                 
                 <div className="Skills">
                     <h4>Web Design</h4>
-                    <ul>
-                        {WebDesign.map((element,index) => <li key={index}>{element}</li>)}
+                    <ul className='section3ul'>
+                        {WebDesign.map((element,index) => <li  className='section3li' key={index}>{element}</li>)}
                     </ul>
                 </div>
 
                 <div className="Skills">
                     <h4>Frontend</h4>
-                    <ul>
-                        {Frontend.map((element,index) => <li key={index}>{element}</li>)}
+                    <ul className='section3ul'>
+                        {Frontend.map((element,index) => <li className='section3li' key={index}>{element}</li>)}
                     </ul>
                 </div>
 
                 <div className="Skills">
                     <h4>Soft Skills</h4>
-                    <ul>
-                        {SoftSkills.map((element,index) => <li key={index}>{element}</li>)}
+                    <ul className='section3ul'>
+                        {SoftSkills.map((element,index) => <li className='section3li' key={index}>{element}</li>)}
                     </ul>
                 </div>
             </div>
