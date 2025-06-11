@@ -5,16 +5,18 @@ import InstagramIcon from "./Assets/instagram.png"
 import LinkedinIcon from "./Assets/linkedin.png"
 import GithubIcon from "./Assets/github.png"
 
+import {Link} from 'react-router-dom'
+
 const Footer = () => {
   return (
     <>
         <div className="MainFooterWrapper">
             <div className="MainFooterTop">
                 <div className="FooterTop1">
-                    <a href="">Home</a>
-                    <a href="">Project</a>
-                    <a href="">About</a>
-                    <a href="">Contact</a>
+                    <Link to="/portfolio/">Home</Link>
+                    <Link to="/portfolio/Project">Project</Link>
+                    <Link to="/portfolio/About">About</Link>
+                    <Link to="/portfolio/Contact">Contact</Link>
                 </div>
 
                 <div className="FooterTop2">

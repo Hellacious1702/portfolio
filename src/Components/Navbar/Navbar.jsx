@@ -2,6 +2,9 @@ import React from 'react'
 import "./Navbar.css";
 import MailIcon from './Assets/Mail.png'
 
+import { Link } from 'react-router-dom';
+
+
 const Navbar = () => {
   return (
     <>
@@ -11,9 +14,9 @@ const Navbar = () => {
           </div>
 
           <div className="NavWrapper">
-              <a href="">Home</a>
-              <a href="">Project</a>
-              <a href="">About</a>
+              <Link to="/portfolio/">Home</Link>
+              <Link to="/portfolio/Project">Project</Link>
+              <Link to="/portfolio/About">About</Link>
           </div>
 
           <div className="ContactWrapper">
