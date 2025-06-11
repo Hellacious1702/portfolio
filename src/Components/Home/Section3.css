@@ -2,7 +2,7 @@
     display: flex;
     text-align: left;
     flex-direction: column;
-    padding: 4em 8rem;
+    padding: 4em 8vw;
 }
 
 .MainSection3Wrapper h3{
@@ -19,6 +19,7 @@
     font-size: 2em;
     margin: 0;
     color: #24262f;
+    margin-top: 1em;
 }
 
 .section3ul{

@@ -1,7 +1,7 @@
 .MainSection1Wrapper{
     display: flex;
     justify-content: space-between;
-    padding: 4em 8rem;
+    padding: 4em 8vw;
     align-items: center;
 }
 
@@ -45,6 +45,7 @@
     display: flex;
     align-items: center;
     gap: 2em;
+    margin-top: 1.5em;
 }
 
 .MainWrapper1-Buttons button{

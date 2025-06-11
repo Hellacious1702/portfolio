@@ -1,0 +1,67 @@
+.ProjectCardWrapper{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    flex-basis: 100%;
+    scale: 1em;
+}
+
+.ProjectCardWrapperUL{
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.ProjectCardWrapperLI{
+    padding: .5em 1em;
+    color: #4e525a;
+    border-bottom: 1px solid #24262f;
+    margin-right: 1.5em;
+}
+
+.ProjectCardWrapper h3{
+    font-size: 1.5em;
+}
+
+.ProjectCardWrapper p{
+    font-size: 1.1em;
+    margin-bottom: 1.2em;
+}
+
+.ProjectCardWrapper-Buttons button{
+    padding: 1em 2em;
+    margin-right: 2em;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#GithubButton{
+    background-color: #6E06F2;
+    color: white;
+}
+
+#ProjectButton{
+    background-color: transparent;
+    border: 1px solid #24262f;
+    color: #24262f;
+}
+
+.ProjectCardsWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 1.3em;
+}
+
+.ProjectCardWrapper-Buttons a{
+    text-decoration: none;
+}
+
+#GithubButton a{
+    color: white;
+}
+
+#ProjectButton a{
+    color: #24262f;
+}

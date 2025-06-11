@@ -3,7 +3,7 @@
 .MainFooterWrapper{
     display: flex;
     flex-direction: column;
-    padding: 1em 8rem;
+    padding: 1em 8vw;
     gap: 1em;
     margin-bottom: 3em;
 }
