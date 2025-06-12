@@ -75,3 +75,11 @@
     border: 1px solid #24262f;
     background-color: transparent;
 }
+
+#Active{
+    color: #6E06F2;
+}
+
+#notActive{
+    color: #4E525A;
+}

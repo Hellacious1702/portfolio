@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import "./Footer.css"
 
 import InstagramIcon from "./Assets/instagram.png"
@@ -8,15 +8,25 @@ import GithubIcon from "./Assets/github.png"
 import {Link} from 'react-router-dom'
 
 const Footer = () => {
+
+    const [activeNav , setActiveNav] = useState("Home");
+
+    function handleNav(index)
+    {
+        setActiveNav(index);
+    }
+
+    
+
   return (
     <>
         <div className="MainFooterWrapper">
             <div className="MainFooterTop">
                 <div className="FooterTop1">
-                    <Link to="/portfolio/">Home</Link>
-                    <Link to="/portfolio/Projects">Project</Link>
-                    <Link to="/portfolio/About">About</Link>
-                    <Link to="/portfolio/Contact">Contact</Link>
+                    <Link to="/portfolio/" id={activeNav=="Home" ? "Active" : "notActive"} onClick={() => handleNav("Home")}>Home</Link>
+                    <Link to="/portfolio/Projects" id={activeNav=="Project" ? "Active" : "notActive"} onClick={() => handleNav("Project")}>Project</Link>
+                    <Link to="/portfolio/About" id={activeNav=="About" ? "Active" : "notActive"} onClick={() => handleNav("About")}>About</Link>
+                    <Link to="/portfolio/Contact" id={activeNav=="Contact" ? "Active" : "notActive"} onClick={() => handleNav("Contact")}>Contact</Link>
                 </div>
 
                 <div className="FooterTop2">

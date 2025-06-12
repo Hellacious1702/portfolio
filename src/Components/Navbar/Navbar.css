@@ -24,3 +24,12 @@
     outline: none;
     background-color: #24262F;
 }
+
+
+#Active{
+    color: #6E06F2;
+}
+
+#notActive{
+    color: #4E525A;
+}

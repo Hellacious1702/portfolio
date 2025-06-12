@@ -11,8 +11,6 @@ import Projects from './Projects'
 import Contact from './Contact'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <Router>
