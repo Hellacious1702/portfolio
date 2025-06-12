@@ -2,6 +2,8 @@ import React from 'react'
 import ProfilePicture from "./Assets/ProfilePicture.jpg"
 import "./Section1.css"
 
+import { Link } from 'react-router-dom'
+
 const Section1 = () => {
   return (
     <>
@@ -11,7 +13,7 @@ const Section1 = () => {
                 <h1><span>Front</span>end <br />Developer</h1>
                 <p>I'm a frontend developer based in Navi Mumbai, I'll help you <br /> build beautiful websites your users will love.</p>
                 <div className="MainWrapper1-Buttons">
-                        <button id='Getin'>Get in Touch</button>
+                        <Link to="/portfolio/Contact"><button id='Getin'>Get in Touch</button></Link>
                         <button id='Projects'>Browse Projects</button>
                     </div>
             </div>

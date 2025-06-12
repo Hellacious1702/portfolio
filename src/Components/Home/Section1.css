@@ -67,3 +67,9 @@
     border: 1px solid #24262f;
     background-color: transparent;
 }
+
+a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}

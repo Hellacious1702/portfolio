@@ -1,0 +1,57 @@
+.ContactSectionMain{
+    display: flex;
+    justify-content: space-between;
+    padding: 4em 8vw;
+    align-items: center;
+    margin-top: 5em;
+}
+
+.ContactSectionImage{
+    display: flex;
+    justify-content: flex-end;
+    border: 1px solid #24262f;
+    border-radius: 50%;
+}
+
+.ContactSectionImage img{
+    width: 22em;
+    height: 22em;
+    border-radius: 50%;
+    margin: 2em;
+    filter: grayscale();
+}
+
+.ContactSectionDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.ContactSectionDetails h2{
+    font-size: 4rem;
+    margin: 0;
+    line-height: 100px;
+}
+
+.ContactSectionDetails h2 span{
+    color: #6E06F2;
+}
+
+.ContactSectionDetails p{
+    font-size: 1.5em;
+    width: 60%;
+    color: #4E525A;
+}
+
+.ContactButtonsWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.ContactButtonsWrapper a{
+    text-decoration: none;
+    color: #4E525A;
+    font-size: 1.3em;
+    padding: 0 2em;
+}
