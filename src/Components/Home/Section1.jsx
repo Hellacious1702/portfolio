@@ -14,7 +14,7 @@ const Section1 = () => {
                 <p>I'm a frontend developer based in Navi Mumbai, I'll help you <br /> build beautiful websites your users will love.</p>
                 <div className="MainWrapper1-Buttons">
                         <Link to="/portfolio/Contact"><button id='Getin'>Get in Touch</button></Link>
-                        <button id='Projects'>Browse Projects</button>
+                        <Link to="/portfolio/Projects"><button id='Projects'>Browse Projects</button></Link>
                     </div>
             </div>
 

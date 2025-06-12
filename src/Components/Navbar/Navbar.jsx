@@ -4,6 +4,9 @@ import MailIcon from './Assets/Mail.png'
 
 import { Link } from 'react-router-dom';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
+
 
 const Navbar = () => {
 
@@ -18,7 +21,7 @@ const Navbar = () => {
     <>
       <div className="MainNavWrapper">
           <div className="Brand">
-              <p>Varad Sandeep Naik</p>
+              <Link to="/portfolio/" onClick={() => handleNav("Home")}><p>Varad Sandeep Naik</p></Link>
           </div>
 
           <div className="NavWrapper">
@@ -28,7 +31,7 @@ const Navbar = () => {
           </div>
 
           <div className="ContactWrapper">
-              <button><img src={MailIcon} alt="" /></button>
+              <Link to="/portfolio/Contact"><FontAwesomeIcon icon={faEnvelope} size="2xl" style={{color: "#24262f",}} /></Link>
           </div>
       </div>
         

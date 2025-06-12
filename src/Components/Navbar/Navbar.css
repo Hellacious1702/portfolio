@@ -6,6 +6,16 @@
     font-size: 18px;
 }
 
+.Brand{
+    color: #24262F;
+}
+
+.Brand a{
+    color: #24262F;
+    cursor: pointer;
+    text-decoration: none;
+}
+
 
 .NavWrapper{
     display: flex;

@@ -16,7 +16,6 @@ const Footer = () => {
         setActiveNav(index);
     }
 
-    
 
   return (
     <>
@@ -42,8 +41,8 @@ const Footer = () => {
                         <p>Intereseted in working together<span>?</span></p>
                     </div>
                     <div className="FooterDown1-Buttons">
-                        <button id='Getin'>Get in Touch</button>
-                        <button id='Projects'>Browse Projects</button>
+                        <Link to="/portfolio/Contact"><button id='Getin'>Get in Touch</button></Link>
+                        <Link to="/portfolio/Projects"><button id='Projects'>Browse Projects</button></Link>
                     </div>
                 </div>
 

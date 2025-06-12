@@ -55,6 +55,7 @@
     border: none;
     outline: none;
     font-size: 18px;
+    cursor: pointer;
 }
 
 #Getin{
@@ -68,7 +69,7 @@
     background-color: transparent;
 }
 
-a{
+.MainWrapper1-Buttons a{
     text-decoration: none;
     color: white;
     cursor: pointer;

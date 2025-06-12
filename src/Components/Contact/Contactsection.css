@@ -53,5 +53,13 @@
     text-decoration: none;
     color: #4E525A;
     font-size: 1.3em;
-    padding: 0 2em;
+    padding: 0 1em;
+}
+
+.ContactButtonsWrapper a:hover{
+    color: #24262f;
+}
+
+.ContactCon{
+    padding-left: 2em;
 }

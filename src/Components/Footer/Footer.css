@@ -63,6 +63,7 @@
     font: 1.2em;
     border: none;
     outline: none;
+    cursor: pointer;
 }
 
 #Getin{
