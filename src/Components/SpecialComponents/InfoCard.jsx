@@ -17,7 +17,7 @@ const InfoCard = (props) => {
     {
         Course = "Bachelor of Computer Application"
         Tenure = "2023 - 2026 (ongoing)"
-        CourseDetails = "Currently, I am pursuing a Bachelor of Computer Applications (BCA) at Amity University Mumbai. <br><br> This program is instrumental in building my strong foundation in core computer science principles, software development methodologies, and various essential programming languages. The curriculum places a significant emphasis on both theoretical understanding and practical, hands-on application. This approach is key to equipping me with critical analytical and robust problem-solving skills. <br><br> Ultimately, this comprehensive education is preparing me for a successful and impactful career within the dynamic and ever-evolving technology sector."
+        CourseDetails = "Currently, I am pursuing a Bachelor of Computer Applications (BCA) at Amity University Mumbai. This program is instrumental in building my strong foundation in core computer science principles, software development methodologies, and various essential programming languages. The curriculum places a significant emphasis on both theoretical understanding and practical, hands-on application. This approach is key to equipping me with critical analytical and robust problem-solving skills. Ultimately, this comprehensive education is preparing me for a successful and impactful career within the dynamic and ever-evolving technology sector."
    
     }else if(details == "RadcliffeSchool")
     {

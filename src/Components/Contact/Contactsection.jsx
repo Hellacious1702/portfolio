@@ -2,8 +2,10 @@ import React from 'react'
 import ProfilePicture from "./Assets/ProfilePicture.jpg"
 import "./Contactsection.css"
 
+import CV from './Assets/File/Varad Sandeep Naik Resume.pdf'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelopeCircleCheck , faSquarePhone } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelopeCircleCheck , faSquarePhone , faFile } from '@fortawesome/free-solid-svg-icons'
 
 const Contactsection = () => {
   return (
@@ -19,12 +21,17 @@ const Contactsection = () => {
             <div className="ContactButtonsWrapper">
                 <div className="ContactCon">
                     <FontAwesomeIcon icon={faEnvelopeCircleCheck} size='2xl' style={{color: "#24262f",}}/>
-                    <a href='mailto:someone@example.com'>varad0007@gmail.com</a>
+                    <a href='mailto:varad0007@gmail.com'>varad0007@gmail.com</a>
                 </div>
 
                 <div className="ContactCon">
                     <FontAwesomeIcon icon={faSquarePhone} size='2xl' style={{color: "#24262f",}}/>
                     <a href=""> +91 7087844331</a>
+                </div>
+
+                <div className="ContactCon">
+                    <FontAwesomeIcon icon={faFile} size="2xl" style={{color: "#24262f",}} />
+                    <a href={CV} download="Varad Sandeep Naik CV"> Resume/CV</a>
                 </div>
             </div>
         </div>
