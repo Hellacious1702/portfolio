@@ -17,7 +17,6 @@ function App() {
       <Router>
         <ScrolltoTop/>
         <Navbar/>
-       
         <Routes>
           
           <Route path='/portfolio/' element={<HomePage/>}/>
