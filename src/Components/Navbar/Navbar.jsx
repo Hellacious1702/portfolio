@@ -7,13 +7,14 @@ import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope} from '@fortawesome/free-regular-svg-icons';
 import { faBarsStaggered } from '@fortawesome/free-solid-svg-icons/faBarsStaggered';
+import { faXmark } from '@fortawesome/free-solid-svg-icons';
 
 
 const Navbar = () => {
 
   const [activeNav , setActiveNav] = useState("Home");
   const [activeMobileNav , setActiveMobileNav] = useState("Close");
-  
+
     function handleNav(index)
     {
           setActiveNav(index);
@@ -33,7 +34,7 @@ const Navbar = () => {
     <>
       <div className="MainNavWrapper">
           <div className="Brand">
-              <Link to="/portfolio/" onClick={() => handleNav("Home")}><p>Varad Sandeep Naik</p></Link>
+              <Link to="/portfolio/" onClick={() => handleNav("Home")}><p>Varad Sandeep Naik<span>.</span></p></Link>
           </div>
 
           <div className="NavWrapper">
@@ -47,7 +48,9 @@ const Navbar = () => {
           </div>
 
           <div className="MobileNavButton" onClick={() => handleMobileNav(activeMobileNav == "Close" ? "Open" : "Close")}>
-            <FontAwesomeIcon icon={faBarsStaggered} size="xl" style={{color: "#24252f",}} />
+            
+            {activeMobileNav == "Close" ? <FontAwesomeIcon icon={faBarsStaggered} size="xl" style={{color: "#24252f",}} /> : <FontAwesomeIcon icon={faXmark} size="xl" style={{color: "#24262f",}} />}
+            
           </div>
 
       </div>

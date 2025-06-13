@@ -22,7 +22,7 @@ const SectionProject = () => {
                 <ProjectCard Project={QRHungry}/>
                 <ProjectCard Project={Password}/>
               </div>
-              <div className="ProjectCards">
+              <div className="ProjectCards" id='ProjectCards2'>
                 <ProjectCard Project={Apple}/>
                 <ProjectCard Project={ShouldYou}/>
               </div>
