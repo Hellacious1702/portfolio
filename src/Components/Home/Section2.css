@@ -64,3 +64,26 @@
 #notActiveUL{
     border-left: 5px solid #4E525A;
 }
+
+@media (400px <= width <= 800px){
+
+    .MainSection2Wrapper{
+        display: flex;
+        text-align: left;
+        flex-direction: column;
+        padding: 2em 5vw;
+    }
+
+    .EducationWrapper{
+        flex-direction: column;
+    }
+    
+    
+
+    .MainSection2Wrapper h3{
+        font-size: 3em;
+        margin: 0;
+        color: #24241f;
+    }
+
+}

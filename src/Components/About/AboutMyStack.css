@@ -48,3 +48,41 @@
 #StackType{
     color: #6E06F2;
 }
+
+@media (400px <= width <= 800px){
+
+    .AboutMyStackSectionWrapper{
+        display: flex;
+        text-align: left;
+        flex-direction: column;
+        padding: 2em 5vw;
+    }
+
+    .AboutMyStackSectionWrapper h3{
+        font-size: 3em;
+        margin: 0;
+        color: #24241f;
+    }
+
+    .StackSeries h2{
+        font-size: 10vw;
+        color: #24241f;
+    }
+
+    .StackDetailWrapper h3{
+        font-size: 10vw;
+    }
+
+    .StackDetailWrapper p{
+        font-size: 3.5vw;
+    }
+
+    .MainStackSectionWrapper{
+        display: flex;
+        gap: 2em;
+        padding: 0 1em;
+        align-items: flex-start;
+        margin-bottom: 4em;
+        border-left: .2em solid #24241f;
+    }
+}

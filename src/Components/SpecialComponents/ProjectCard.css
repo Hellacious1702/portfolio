@@ -65,3 +65,22 @@
 #ProjectButton a{
     color: #24262f;
 }
+
+@media (400px <= width <= 800px){
+    .ProjectCardWrapper{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ProjectCardWrapper p{
+        font-size: 1.1rem;
+        margin-bottom: 1.2em;
+    }
+
+    .ProjectCardWrapperUL{
+        list-style: none;
+        display: flex;
+        padding: 0;
+        flex-wrap: wrap;
+    }
+}

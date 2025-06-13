@@ -41,3 +41,30 @@
     display: flex;
     gap: 15em;
 }
+
+@media (400px <= width <= 800px){
+
+    .MainSection3Wrapper{
+        display: flex;
+        text-align: left;
+        flex-direction: column;
+        padding: 2em 5vw;
+    }
+
+    .SkillsWrapper{
+        display: flex;
+        gap: 5em;
+        flex-direction: column;
+    }
+
+    .MainSection3Wrapper h3{
+        font-size: 3em;
+        margin: 0;
+        color: #24262f;
+    }
+
+    .SkillsWrapper{
+        display: flex;
+        gap: 3em;
+    }
+}

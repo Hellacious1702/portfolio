@@ -21,3 +21,27 @@
     border-left: .5em solid #6E06F2;
     padding-left: 1em;
 }
+
+@media (400px <= width <= 800px){
+    .ProjectHeaderSectionWrapper{
+        display: flex;
+        text-align: left;
+        flex-direction: column;
+        padding: 2em 5vw;
+    }
+
+    .ProjectHeaderSectionWrapper h1{
+        font-size: 13vw;
+        margin: 0;
+        line-height: 1em;
+        margin-bottom: .5em;
+        color: #24241f;
+    }
+
+    .ProjectHeaderSectionWrapper p{
+    font-size: 4vw;
+    color: #4E525A;
+    border-left: none;
+    padding-left: 0;
+}
+}

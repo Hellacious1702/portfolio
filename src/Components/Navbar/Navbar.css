@@ -6,8 +6,16 @@
     font-size: 18px;
 }
 
+.MobileNavWrapper{
+    display: none;
+}
+
 .Brand{
     color: #24262F;
+}
+
+.MobileNavButton{
+    display: none;
 }
 
 .Brand a{
@@ -42,4 +50,52 @@
 
 #notActive{
     color: #4E525A;
+}
+
+@media (400px <= width <= 800px){
+
+    .MainNavWrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1em 5vw;
+        font-size: 18px;
+    }
+
+    .NavWrapper{
+        display: none;
+    }
+
+    .ContactWrapper{
+        display: none;
+    }
+
+    .MobileNavButton{
+        display: block;
+    }
+
+    .Brand{
+        flex: 2;
+    }
+
+    .MobileNavWrapper{
+        display: flex;
+        flex-direction: column;
+        padding: 1em 8vw;
+        font-size: 18px;
+    }
+
+    .MobileNavWrapper a{
+        text-decoration: none;
+        color: #4E525A;
+        font-weight: 600;
+    }
+
+    #notActiveMobileNav{
+        display: none;
+    }
+
+    #ActiveMobileNav{
+        display: flex;
+    }
 }

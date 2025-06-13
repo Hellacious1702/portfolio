@@ -21,3 +21,19 @@ iframe{
 .AboutMapSectionWrapper h3 span{
     color: #6E06F2;
 }
+
+@media (400px <= width <= 800px){
+
+    .AboutMapSectionWrapper{
+        display: flex;
+        text-align: left;
+        flex-direction: column;
+        padding: 2em 5vw;
+    }
+
+    .AboutMapSectionWrapper h3{
+        font-size: 3em;
+        margin: 0;
+        color: #24241f;
+    }
+}

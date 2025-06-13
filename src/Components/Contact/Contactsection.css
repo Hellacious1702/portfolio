@@ -63,3 +63,48 @@
 .ContactCon{
     padding-left: 2em;
 }
+
+@media (400px <= width <= 800px){
+
+    .ContactSectionMain{
+        display: flex;
+        justify-content: space-between;
+        padding: 2em 5vw;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5em;
+        gap: 8em;
+    }
+
+    .ContactSectionDetails h2{
+        font-size: 3.5rem;
+        margin: 0;
+        line-height: 1em;
+    }
+
+    .ContactSectionImage{
+        display: flex;
+        justify-content: flex-end;
+        border: 1px solid #24262f;
+        border-radius: 50%;
+    }
+
+    .ContactSectionImage img{
+        width: 15em;
+        height: 15em;
+        border-radius: 50%;
+        margin: 2em;
+        filter: grayscale();
+    }
+
+    .ContactSectionDetails p{
+        font-size: 5vw;
+        width: 100%;
+        color: #4E525A;
+    }
+
+    .ContactCon{
+        display: flex;
+        padding-left: 1em;
+    }
+}

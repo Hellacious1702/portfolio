@@ -21,3 +21,29 @@
     gap: 7em;
     align-items: flex-start;
 }
+
+@media (400px <= width <= 800px){
+
+    .MainSectionProjectWrapper{
+        display: flex;
+        text-align: left;
+        flex-direction: column;
+        padding: 2em 5vw;
+    }
+
+
+    .ProjectCards{
+        margin-top: 2em;
+        display: flex;
+        gap: 7em;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .MainSectionProjectWrapper h3{
+        font-size: 3em;
+        margin: 0;
+        color: #24241f;
+    }
+    
+}
