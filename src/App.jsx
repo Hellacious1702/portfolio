@@ -9,11 +9,13 @@ import {BrowserRouter as Router , Routes, Route} from 'react-router-dom'
 import About from './About'
 import Projects from './Projects'
 import Contact from './Contact'
+import ScrolltoTop from './ScrolltoTop'
 
 function App() {
   return (
     <>
       <Router>
+        <ScrolltoTop/>
         <Navbar/>
        
         <Routes>
