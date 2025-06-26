@@ -4,7 +4,7 @@ import InfoCard from '../SpecialComponents/InfoCard';
 
 const Section2 = () => {
 
-    const Education = ["Amity University" , "Radcliffe School" , "WhiteHat JR"]
+    const Education = ["Amity University" , "Radcliffe School" , "WhiteHat JR" , "Scaler Academy"]
 
     const [activeID , setActiveID] = useState("AmityUniversity")
 

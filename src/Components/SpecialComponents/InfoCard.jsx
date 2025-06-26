@@ -30,6 +30,11 @@ const InfoCard = (props) => {
         Course = "JavaScript Web Application Design"
         Tenure = "2020"
         CourseDetails = "Completed a comprehensive program in Application Design and Development for Basic and Foundation of JavaScript, earning certification as a Certified Web Game Developer. This course provided fundamental skills in JavaScript programming and logical thinking, directly applicable to creating interactive web-based applications and games."
+    }else if(details == "ScalerAcademy")
+    {
+        Course = "Certified React Developer"
+        Tenure = "2025"
+        CourseDetails = "I successfully completed the comprehensive React JS Course by Scaler, diving deep into the world of front-end development. This free online certification provided a structured path to mastering React JS, one of the most popular JavaScript libraries for building dynamic and responsive user interfaces. Throughout the course, I engaged with 48 video tutorials and 10 modules , further solidifying my understanding through 10 challenging practical exercises. The expertly crafted modules helped me quickly learn and significantly elevate my web development skills. The course was conducted by Mrinal Bhattacharya"
     }
 
 
