@@ -25,6 +25,11 @@ const AboutMyStack = () => {
             "Type" : "JavaScript Framework"
         } ,
         {
+            "Language" : "Tailwind CSS" ,
+            "Description" : "With Tailwind CSS, I rapidly build highly customized and responsive user interfaces. Its utility-first approach accelerates development, allowing direct styling in HTML. My proficiency ensures clean, maintainable, and scalable stylesheets. I create unique, visually stunning, and performant web applications efficiently, streamlining design control for modern projects.",
+            "Type" : "CSS Framework"
+        } ,
+        {
             "Language" : "MySql" ,
             "Description" : "Leveraging MySQL, I design and manage robust relational databases, forming the data backbone for dynamic web applications. I efficiently structure schemas and write optimized queries, ensuring data integrity and security. My proficiency allows for seamless data storage, retrieval, and manipulation, critical for supporting complex backend operations and guaranteeing reliable, scalable data management in diverse projects.",
             "Type" : "Database"
