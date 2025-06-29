@@ -5,6 +5,7 @@ import Project2 from "./Assets/2.png"
 import Project3 from "./Assets/3.png"
 import Project4 from "./Assets/4.png"
 import Project5 from "./Assets/5.png"
+import Project6 from "./Assets/6.png"
 
 const ProjectDisplaySection = () => {
 
@@ -16,6 +17,12 @@ const ProjectDisplaySection = () => {
             "Description" : "QRhungry is your one-stop shop for creating QR codes that are as unique and flavorful as you are. Whether you're a business owner, marketer, or simply looking to add a creative touch to your personal projects, we empower you to generate codes that stand out and get noticed.",
             "Link" : "https://hellacious1702.github.io/QRhungry/"
         } , 
+        {
+            "Image" : Project6,
+            "Title" : "Culinary Canvas",
+            "Description" : "Culinary Canvas is a dynamic recipe web application built with ReactJS and styled using Tailwind CSS. It serves as a comprehensive portfolio project showcasing fundamental front-end development skills, including creating interactive user interfaces, ensuring responsive design across devices, and integrating external APIs for dynamic content delivery. This project demonstrates strong proficiency in component-based architecture and crafting intuitive, visually appealing user experiences for modern web applications.",
+            "Link" : "https://hellacious1702.github.io/CulinaryCanvas/"
+        } ,
         {
             "Image" : Project2,
             "Title" : "Apple Website Clone",
